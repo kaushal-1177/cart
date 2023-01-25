@@ -12,10 +12,10 @@ class Cart extends React.Component {
                         <CartItem
                         product = {product}
                         key = {product.id}
-                        func = {() => console.log('sdsd')}
-                        isloggedin = {false}
-                        jsx = {<h1>Text</h1>}
-                        comp = {<CartItem/>}
+                        // func = {() => console.log('sdsd')}
+                        // isloggedin = {false}
+                        // jsx = {<h1>Text</h1>}
+                        // comp = {<CartItem/>}
                         />
                     )
                 
