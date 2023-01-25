@@ -2,11 +2,15 @@ import React from 'react';
 import CartItem from './CartItems';
 class Cart extends React.Component {
     render () {
-        <div>
-        <CartItem/>
-        <CartItem/>
-        <CartItem/>
-        </div>
+        const arr = [1, 2, 3, 4, 5];
+        return(
+            <div className = "cart">
+                { arr.map((item) => {
+                    return item + 5;
+                })}
+            </div>
+        )
+ 
     }
 }
 

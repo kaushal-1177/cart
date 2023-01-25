@@ -1,5 +1,6 @@
 import React from 'react';
 import CartItem from './CartItems';
+import Cart from './cart';
 function App() {
   return (
     <div className="App">
@@ -9,7 +10,7 @@ function App() {
           {/* Edit <code>src/App.js</code> and save to reload. */}
           Cart
         </h1>
-        <CartItem/>
+        <Cart/>
 
         <a
           className="App-link"
