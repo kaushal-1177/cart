@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as firebase from 'firebase'
+import * as firebase from 'firebase';
 import 'firebase/firestore';
 
 
@@ -16,8 +16,9 @@ const firebaseConfig = {
     measurementId: "G-77D0GDYBDM"
   };
   
+  firebase.initializeApp(firebaseConfig); 
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+  // const app = initializeApp(firebaseConfig);
+  // const analytics = getAnalytics(app);
 
 ReactDOM.render(<App />, document.getElementById('root'));

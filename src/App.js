@@ -91,7 +91,9 @@ class App extends React.Component {
       if(product.qty > 0)
       {
       cartTotal = cartTotal + product.qty * product.price
-    }})
+    }
+    return '';
+  });
 
     return cartTotal;
   }
